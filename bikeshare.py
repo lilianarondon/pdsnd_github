@@ -20,14 +20,14 @@ def get_filters():
     city = ""
     month = ""
     day = ""
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hola! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("Enter a city you would like data for: ")
         city = city.lower()
         if city in CITY_DATA.keys():
             break
-        print("This is an invalid city. Please try again.")
+        print("Your type the wrong city. Please try again.")
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
