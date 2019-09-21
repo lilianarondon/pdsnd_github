@@ -12,5 +12,7 @@ Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-working on the project
+
+Change#1: working on the project
+Change#2: Still working on the project
 
